@@ -1,0 +1,24 @@
+/*
+Theme Name: Savara Lite
+Description: Savara Lite is a Luxury Resort Booking WordPress Block Theme designed for hospitality businesses that want to create an elegant and professional online presence. Built with full site editing and powered by Gutenverse, this theme provides a flexible and visually stunning platform to showcase resort accommodations, premium facilities, and unforgettable guest experiences with a modern and refined layout. Whether you manage a luxury resort, boutique villa, or hospitality business, Savara Lite helps you present your services with sophistication and clarity. It is ideal for resort owners, hotel managers, villa rentals, travel hospitality brands, and accommodation providers looking to attract more guests online. With responsive layouts, customizable block patterns, and well-structured pages, you can easily highlight rooms, amenities, booking information, and customer testimonials. Optimized for performance and usability, Savara Lite enables you to create a polished website that reflects your brand identity and expertise in Luxury Resort Booking services. If you are looking for a scalable and elegant solution, Savara is a reliable Luxury Resort Booking WordPress theme to grow your hospitality business online.
+Author: Jegstudio
+Author URI: gutenverse.com
+Theme URI: https://gutenverse.com/themes/savara-lite/
+Version: 1.0.1
+Stable tag: 1.0.1
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 7.0
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: savara-lite
+Domain Path: /languages
+Tags: block-patterns,custom-logo,custom-menu,editor-style,full-site-editing,featured-images
+Copyright: © Jegstudio. All rights reserved.
+*/
+
+
+
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
+}

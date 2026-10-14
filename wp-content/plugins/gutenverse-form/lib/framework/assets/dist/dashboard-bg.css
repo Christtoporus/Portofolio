@@ -1,0 +1,12 @@
+#gutenverse-dashboard .themelist-panel {
+    background-image: url('/Portofolio/wp-content/plugins/gutenverse-form/lib/framework/assets/img/asset_bg_2.webp');
+    background-position-y: center;
+}
+
+#gutenverse-dashboard .rating-panel {
+    background-image: url('/Portofolio/wp-content/plugins/gutenverse-form/lib/framework/assets/img/dashboard-landing-bg.webp');
+}
+
+#gutenverse-dashboard .upgrade-notice-head>div {
+    background-image: url('/Portofolio/wp-content/plugins/gutenverse-form/lib/framework/assets/img/upgrade-notice-hero.webp');
+}

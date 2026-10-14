@@ -1,0 +1,419 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+    "customTemplates": [
+        {
+            "name": "blank-canvas",
+            "title": "Blank Canvas",
+            "postTypes": [
+                "post",
+                "page"
+            ]
+        },
+        {
+            "name": "full-width",
+            "title": "Full Width",
+            "postTypes": [
+                "post",
+                "page"
+            ]
+        }
+    ],
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "gradients": [],
+            "palette": [
+                {
+                    "slug": "gv-color-primary",
+                    "name": "Primary",
+                    "color": "#829e25"
+                },
+                {
+                    "slug": "gv-color-secondary",
+                    "name": "Secondary",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-text-primary",
+                    "name": "Text Primary",
+                    "color": "#050c01"
+                },
+                {
+                    "slug": "gv-color-text-secondary",
+                    "name": "Text Secondary",
+                    "color": "#050d01b3"
+                },
+                {
+                    "slug": "gv-color-accent",
+                    "name": "Accent",
+                    "color": "#829e25"
+                },
+                {
+                    "slug": "gv-color-accent-hover",
+                    "name": "Accent Hover",
+                    "color": "#738a28"
+                },
+                {
+                    "slug": "gv-color-background-primary",
+                    "name": "Background Primary",
+                    "color": "#050c01"
+                },
+                {
+                    "slug": "gv-color-background-secondary",
+                    "name": "Background Secondary",
+                    "color": "#f3fff5"
+                },
+                {
+                    "slug": "gv-color-background-tertiary",
+                    "name": "Background Tertiary",
+                    "color": "#738a281a"
+                },
+                {
+                    "slug": "gv-color-border",
+                    "name": "Border",
+                    "color": "#dadbd9"
+                },
+                {
+                    "slug": "gv-color-border-input",
+                    "name": "Border Input",
+                    "color": "#050c0166"
+                },
+                {
+                    "slug": "gv-color-text-placeholder",
+                    "name": "Text Placeholder",
+                    "color": "#050c0199"
+                },
+                {
+                    "slug": "gv-color-white",
+                    "name": "White",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-dark-primary",
+                    "name": "Dark Primary",
+                    "color": "#050c01"
+                },
+                {
+                    "slug": "gv-color-dark-secondary",
+                    "name": "Dark Secondary",
+                    "color": "#050c01"
+                },
+                {
+                    "slug": "gv-color-dark-text-primary",
+                    "name": "Dark Text Primary",
+                    "color": "#ffffff99"
+                },
+                {
+                    "slug": "gv-color-dark-text-secondary",
+                    "name": "Dark Text Secondary",
+                    "color": "#ffffffcc"
+                },
+                {
+                    "slug": "gv-color-dark-accent",
+                    "name": "Dark Accent",
+                    "color": "#829e25"
+                },
+                {
+                    "slug": "gv-color-dark-accent-hover",
+                    "name": "Dark Accent Hover",
+                    "color": "#738a28"
+                },
+                {
+                    "slug": "gv-color-dark-background-primary",
+                    "name": "Dark Background Primary",
+                    "color": "#738a2833"
+                },
+                {
+                    "slug": "gv-color-dark-background-secondary",
+                    "name": "Dark Background Secondary",
+                    "color": "#050c01"
+                },
+                {
+                    "slug": "gv-color-dark-background-tertiary",
+                    "name": "Dark Background Tertiary",
+                    "color": "#ffffff1a"
+                },
+                {
+                    "slug": "gv-color-dark-border",
+                    "name": "Dark Border",
+                    "color": "#ffffff26"
+                },
+                {
+                    "slug": "gv-color-dark-border-input",
+                    "name": "Dark Border Input",
+                    "color": "#738a284d"
+                },
+                {
+                    "slug": "gv-color-dark-text-placeholder",
+                    "name": "Dark Text Placeholder",
+                    "color": "#ffffff4d"
+                },
+                {
+                    "slug": "gv-color-black",
+                    "name": "Black",
+                    "color": "#000000"
+                }
+            ]
+        },
+        "custom": {
+            "headings": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--primary)"
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "100vw",
+            "wideSize": "100vw"
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "blockGap": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "fontFamilies": [
+                {
+                    "name": "Baskervville",
+                    "slug": "baskervville",
+                    "fontFamily": "Baskervville, serif",
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/baskervville/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYuDrugaydR1FLkw.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Baskervville"
+                        },
+                        {
+                            "src": "file:./assets/fonts/baskervville/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYtLrugaydR1FLkw.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Baskervville"
+                        },
+                        {
+                            "src": "file:./assets/fonts/baskervville/YA9Br0yU4l_XOrogbkun3kQ6vLFYXmpq8sRsYj7sugaydR1FLkw.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Baskervville"
+                        },
+                        {
+                            "src": "file:./assets/fonts/baskervville/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioUkC4dD9APkyagA.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Baskervville"
+                        },
+                        {
+                            "src": "file:./assets/fonts/baskervville/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyioYEC4dD9APkyagA.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Baskervville"
+                        },
+                        {
+                            "src": "file:./assets/fonts/baskervville/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4dD9APkyagA.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Baskervville"
+                        }
+                    ]
+                },
+                {
+                    "name": "Albert Sans",
+                    "slug": "albert-sans",
+                    "fontFamily": "Albert Sans, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHq5P_qY32TxAj1g.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Albert Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHmZP_qY32TxAj1g.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Albert Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHdZT_qY32TxAj1g.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Albert Sans"
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    },
+                    "size": "1rem",
+                    "slug": "small",
+                    "name": "Small"
+                },
+                {
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1.125rem"
+                    },
+                    "size": "1.125rem",
+                    "slug": "medium",
+                    "name": "Medium"
+                },
+                {
+                    "fluid": {
+                        "min": "1.75rem",
+                        "max": "1.875rem"
+                    },
+                    "size": "1.75rem",
+                    "slug": "large",
+                    "name": "Large"
+                },
+                {
+                    "fluid": false,
+                    "size": "2.25rem",
+                    "slug": "extra-large",
+                    "name": "Extra Large"
+                },
+                {
+                    "name": "Primary",
+                    "size": "75px",
+                    "slug": "primary"
+                },
+                {
+                    "name": "Secondary",
+                    "size": "64px",
+                    "slug": "secondary"
+                },
+                {
+                    "name": "Feature",
+                    "size": "32px",
+                    "slug": "feature"
+                },
+                {
+                    "name": "Feature Secondary",
+                    "size": "24px",
+                    "slug": "feature-secondary"
+                },
+                {
+                    "name": "Meta",
+                    "size": "12px",
+                    "slug": "meta"
+                },
+                {
+                    "name": "Text",
+                    "size": "16px",
+                    "slug": "text"
+                },
+                {
+                    "name": "Text Hero",
+                    "size": "18px",
+                    "slug": "text-hero"
+                },
+                {
+                    "name": "Text Small",
+                    "size": "14px",
+                    "slug": "text-small"
+                },
+                {
+                    "name": "Form Label",
+                    "size": "20px",
+                    "slug": "form-label",
+                    "fluid": false
+                },
+                {
+                    "name": "Heading 404",
+                    "size": "68px",
+                    "slug": "heading-404"
+                },
+                {
+                    "name": "Primary Alt",
+                    "size": "70px",
+                    "slug": "primary-alt"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "spacing": {
+            "blockGap": "1.2rem"
+        },
+        "blocks": {
+            "core/post-content": {
+                "spacing": {
+                    "margin": {
+                        "top": "0px"
+                    }
+                }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--baskervville)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/paragraph": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--albert-sans)"
+                }
+            }
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--baskervville)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--gv-color-text-primary)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--baskervville)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--gv-color-primary)"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|gv-color-accent-hover"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fontStyle": "normal",
+            "fontWeight": "400"
+        },
+        "color": {
+            "text": "var(--wp--preset--color--gv-color-text-secondary)"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 2
+}
